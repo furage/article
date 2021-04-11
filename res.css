@@ -1,0 +1,53 @@
+.name {
+  color: green;
+  font-weight: bold;
+}
+.info {
+  color: gray;
+}
+.id {
+  color: gray;
+}
+.text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height:27px;
+}
+
+[class*="res"] .id {
+  font-weight: bold;
+  background-color: #cccccc;
+}
+
+.res1 .id {
+  color: #ff0000;
+}
+.res1 .text {
+  color: #0000cd;
+}
+
+.res2 .id,.res2 .text {
+  color: rgb(219, 112, 147);
+}
+
+.res3 .id,.res3 .text {
+  color: rgb(128, 0, 128);
+}
+
+.res4 .id,.res4 .text {
+  color: rgb(0, 128, 0);
+}
+
+.res5 .id,.res5 .text {
+  color: #DA8E00;
+  background: -webkit-linear-gradient(-45deg, #DEC704, #C47F00, #D59A05, #DEC704, #D4A501, #C49D07, #A36E02, #C47F00, #D59A05, #DEC704, #D4A501, #D59A05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.res6 .id,.res6 .text {
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #39C9BB, #E57E00, #E50073);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
