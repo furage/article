@@ -55,9 +55,9 @@
 .text .icon {
   padding: 3px;
   background: rgb(238, 238, 255);
-  margin-right: 3px;
+  margin-right: 3px !important;
   border-radius: 45px;
   display: block;
-  width: 45px;
-  height: 45px;
+  width: 45px !important;
+  height: 45px !important;
 }
