@@ -52,7 +52,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.text .icon {
+#matomegray .text .icon,.text .icon {
   padding: 3px;
   background: rgb(238, 238, 255);
   margin-right: 3px !important;
