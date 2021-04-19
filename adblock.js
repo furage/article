@@ -1,7 +1,7 @@
 (function(){
     var e = document.createElement("script");
     e.setAttribute("src","https://code.jquery.com/jquery-1.9.1.js");
-    document.body.append(e);
+    document.body.appendChild(e);
 })();
 jQuery.noConflict();
 (function($) {
