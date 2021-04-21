@@ -47,7 +47,7 @@
 
 .res6 .id,.res6 .text {
   color: rgb(255, 140, 0);
-  background: -webkit-linear-gradient(0deg, #39C9BB, #E57E00, #E50073);
+  background: -webkit-linear-gradient(0deg, #1C645D, #723F00, #720039);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
