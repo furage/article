@@ -17,6 +17,10 @@
   font-size: 24px;
   line-height:36px;
 }
+.text.small {
+  font-size: 12px;
+  line-height:18px;
+}
 
 [class*="res"] .id {
   font-weight: bold;
