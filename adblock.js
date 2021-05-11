@@ -9,7 +9,7 @@ jQuery.noConflict();
         $("[class*=blog_ad],#category_ranking,#pbp_ranking,#blog_news,#blog_ranking,#ad,#ld-floating-menu,.blogroll_ad_news").remove();
         $(".blogroll-ad-text,.blogroll-ad-default").remove();
         $(".ad2,.article_mid_v2,#geniee_overlay").remove(); // アダルトカテゴリの広告
-        if(/adblock/.test(document.cookie)) $(".adsbygoogle").remove();
+        if(localStorage.getItem("adblock")) $(".adsbygoogle").remove();
     }, 500);
     setTimeout(function(){
         clearInterval(id);
