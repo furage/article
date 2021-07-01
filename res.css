@@ -47,17 +47,11 @@
 }
 
 .res5 .id,.res5 .text {
-  color: rgb(218, 142, 0);
-  background: -webkit-linear-gradient(-45deg, #DEC704, #C47F00, #D59A05, #DEC704, #D4A501, #C49D07, #A36E02, #C47F00, #D59A05, #DEC704, #D4A501, #D59A05);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(116, 80, 48);
 }
 
 .res6 .id,.res6 .text {
-  color: rgb(255, 140, 0);
-  background: -webkit-linear-gradient(0deg, #1C645D, #723F00, #720039);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(243, 152, 0);
 }
 
 #matomegray .text .icon,.text .icon {
