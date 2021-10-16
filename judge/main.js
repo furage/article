@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     var webhook = 'https://discord.com/api/webhooks/898779969432465428/66lfK5X4fXeT61Z_WIa_-tKACigW7CCTg92GoF2pmgPDzWmm4LvraOJWHav1FEtPVTrg';
-    var h = $('<div>').appendTo($('.article-body').get(0));
+    var h = $('<div>').appendTo($('.article-body').eq(0));
     var h2 = $('<div>').appendTo(h).text('★☆★この記事の評価をよろしく★☆★');
     var flag = false;
     [
