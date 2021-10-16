@@ -9,7 +9,11 @@ jQuery.noConflict();
     if(window[unique]) return;
     window[unique] = true;
     $.getScript("https://furage.github.io/article/adblock.js");
+    getCSS("https://furage.github.io/article/res.css");
+    getCSS("https://furage.github.io/article/embed.css");
+    getCSS("https://furage.github.io/article/other.css");
     $.getScript("https://furage.github.io/article/judge/main.js");
+    getCSS("https://furage.github.io/article/judge/button.css");
     function getCSS(src){
         $('<link>').attr({
             type: 'text/css',
@@ -17,7 +21,4 @@ jQuery.noConflict();
             href: src
         }).appendTo('head');
     }
-    getCSS("https://furage.github.io/article/res.css");
-    getCSS("https://furage.github.io/article/embed.css");
-    getCSS("https://furage.github.io/article/other.css");
 })(jQuery);
