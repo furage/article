@@ -85,11 +85,11 @@ jQuery.noConflict();
         articleVoteText.text('評価を受け取りました。「' + voteResult + '」')
         $.post(WEBHOOK, {
             content: (
-                '```\n記事：' + $('.article-title').text() +
-                '\nタグ：' + Array.prototype.slice.call($('.article-tags').find('dd a')).map(function(e){
+                '```\n[●記事]' + $('.article-title').text() +
+                '\n[▲タグ]' + Array.prototype.slice.call($('.article-tags').find('dd a')).map(function(e){
                     return e.textContent
                 }).join(', ') +
-                '\n評価：' + voteResult +
+                '\n[★評価]' + voteResult +
                 '\n```'
             )
         })
