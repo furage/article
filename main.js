@@ -9,11 +9,10 @@ jQuery.noConflict();
     if(window[unique]) return;
     window[unique] = true;
     $.getScript("https://furage.github.io/article/adblock.js");
+    $.getScript("https://furage.github.io/article/vote.js");
     getCSS("https://furage.github.io/article/res.css");
     getCSS("https://furage.github.io/article/embed.css");
     getCSS("https://furage.github.io/article/other.css");
-    $.getScript("https://furage.github.io/article/judge/main.js");
-    getCSS("https://furage.github.io/article/judge/button.css");
     function getCSS(src){
         $('<link>').attr({
             type: 'text/css',
