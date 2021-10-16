@@ -9,7 +9,7 @@ jQuery.noConflict();
     if(window[unique]) return;
     window[unique] = true;
     $.getScript("https://furage.github.io/article/adblock.js");
-    $.getScript("https://furage.github.io/article/vote.js");
+    $.getScript("https://furage.github.io/article/poll.js");
     getCSS("https://furage.github.io/article/res.css");
     getCSS("https://furage.github.io/article/embed.css");
     getCSS("https://furage.github.io/article/other.css");
