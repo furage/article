@@ -5,6 +5,9 @@
 })();
 jQuery.noConflict();
 (function($) {
+    var unique = 'u9FWkZ5EVA';
+    if(window[unique]) return;
+    window[unique] = true;
     $.getScript("https://furage.github.io/article/adblock.js");
     $.getScript("https://furage.github.io/article/judge/main.js");
     function getCSS(src){
