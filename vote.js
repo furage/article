@@ -8,6 +8,7 @@ jQuery.noConflict();
     'use strict'
     var WEBHOOK = 'https://discord.com/api/webhooks/898779969432465428/66lfK5X4fXeT61Z_WIa_-tKACigW7CCTg92GoF2pmgPDzWmm4LvraOJWHav1FEtPVTrg'
     var PARENT_NODE_SELECTOR = '.article-body'
+    if($(PARENT_NODE_SELECTOR).length !== 1) return;
     var LABEL_TEXTS = [
         '面白い',
         '及第点',
@@ -85,11 +86,11 @@ jQuery.noConflict();
         articleVoteText.text('評価を受け取りました。「' + voteResult + '」')
         $.post(WEBHOOK, {
             content: (
-                '```\n[●記事]' + $('.article-title').text() +
-                '\n[▲タグ]' + Array.prototype.slice.call($('.article-tags').find('dd a')).map(function(e){
+                '```\n【記事】' + $('.article-title').text() +
+                '\n【タグ】' + Array.prototype.slice.call($('.article-tags').find('dd a')).map(function(e){
                     return e.textContent
                 }).join(', ') +
-                '\n[★評価]' + voteResult +
+                '\n【評価】' + voteResult +
                 '\n```'
             )
         })
