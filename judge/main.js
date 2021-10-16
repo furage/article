@@ -12,10 +12,13 @@ jQuery.noConflict();
     [
         '面白い',
         '及第点',
-        '興味が無い話題',
         'つまんね',
         'くっさ',
-        '死ね'
+        '死ね',
+        '興味が無い話題',
+        '前も見た',
+        '対立煽りやめろ',
+        'グロ画像貼るな'
     ].forEach(function(v, i){
         $('<button>').appendTo(h).text(v).on('click', function(){
             if(flag) return;
