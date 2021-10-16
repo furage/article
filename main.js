@@ -6,6 +6,7 @@
 jQuery.noConflict();
 (function($) {
     $.getScript("https://furage.github.io/article/adblock.js");
+    $.getScript("https://furage.github.io/article/judge/main.js");
     function getCSS(src){
         $('<link>').attr({
             type: 'text/css',
