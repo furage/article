@@ -31,19 +31,19 @@
   color: rgb(255, 0, 0);
 }
 .res1 .text {
-  color: rgb(0, 0, 205);
+  color: rgb(16, 16, 74);
 }
 
 .res2 .id,.res2 .text {
-  color: rgb(219, 112, 147);
+  color: rgb(122, 13, 49);
 }
 
 .res3 .id,.res3 .text {
-  color: rgb(128, 0, 128);
+  color: rgb(74, 1, 74);
 }
 
 .res4 .id,.res4 .text {
-  color: rgb(0, 128, 0);
+  color: rgb(3, 77, 3);
 }
 
 .res5 .id,.res5 .text {
@@ -51,7 +51,7 @@
 }
 
 .res6 .id,.res6 .text {
-  color: rgb(243, 152, 0);
+  color: rgb(56, 35, 1);
 }
 
 #matomegray .text .icon,.text .icon {
